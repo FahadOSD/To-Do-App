@@ -1,0 +1,27 @@
+name: First Workflow
+
+on: [push]
+
+jobs:
+  first:
+    runs-on:ubunto-latest	
+
+    steps: 
+      - name: First step
+        run: | 
+          echo "hello"
+          echo "World"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
